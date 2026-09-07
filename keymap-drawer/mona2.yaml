@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  default: [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, '1', H, J, K, L, ;, Z, X, C, V, B, '3', '2', N, M, ',', ., /, LEFT SHIFT, LCTRL, LEFT WIN, BACKSPACE, ENTER,
-    LANG2, LANG1, SPACE, LEFT ALT]
+  default: [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, '1', H, J, K, L, ;, Z, X, C, V, B, '3', '2', N, M, ',', ., /, LEFT SHIFT, LCTRL, LEFT COMMAND, BACKSPACE,
+    ENTER, LANG2, LANG1, SPACE, LEFT ALT]
   '1':
   - '1'
   - '2'
