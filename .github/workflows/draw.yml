@@ -2,12 +2,12 @@ name: "Draw ZMK Keymap"
 
 on:
   workflow_dispatch:
-  # push時に自動で実行する場合は、以下のコメントアウトを外す
   push:
     paths:
       - "config/mona2.keymap"
-      - "keymap_drawer.config.yaml"
-      - "config/mona2.dtsi"
+      - "config/mona2.json"
+      - "boards/shields/mona2/mona2.dtsi"
+      - ".github/workflows/draw.yml"
 
 jobs:
   draw:
@@ -19,6 +19,5 @@ jobs:
       amend_commit: false
       keymap_patterns: "config/*.keymap"
       json_path: "config"
-      config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer"
       destination: "both"
