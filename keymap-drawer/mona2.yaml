@@ -35,7 +35,7 @@ layers:
   - .
   - {t: /, h: RIGHT SHIFT}
   - ^
-  - LEFT WIN
+  - LEFT COMMAND
   - LALT
   - {t: LANG2, h: '4'}
   - {t: ENTER, h: '2'}
