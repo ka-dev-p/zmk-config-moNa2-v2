@@ -18,7 +18,8 @@
 
 &lt {
     quick-tap-ms = <300>;
-    flavor = "balanced";
+    tapping-term-ms = <350>;
+    flavor = "tap-preferred";
 };
 
 &zip_mouse_gesture {
