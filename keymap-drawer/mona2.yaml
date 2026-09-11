@@ -34,11 +34,11 @@ layers:
   - LEFT ARROW
   - RIGHT ARROW
   - {t: /, h: RIGHT SHIFT}
-  - ^
+  - {t: ^, h: '2'}
   - LEFT COMMAND
   - LALT
   - {t: LANG2, h: '4'}
-  - {t: SPACE, h: '2'}
+  - SPACE
   - {t: '&to_layer_0 LANG1', h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '1'}
@@ -120,11 +120,11 @@ layers:
   - F2
   - F3
   - F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
