@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ;
+  - UP ARROW
   - H
   - J
   - K
@@ -28,17 +28,17 @@ layers:
   - V
   - B
   - {t: TAB, h: '5'}
-  - '"'
+  - DOWN ARROW
   - N
   - M
-  - ','
-  - .
+  - LEFT ARROW
+  - RIGHT ARROW
   - {t: /, h: RIGHT SHIFT}
   - ^
   - LEFT COMMAND
   - LALT
   - {t: LANG2, h: '4'}
-  - {t: ENTER, h: '2'}
+  - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '1'}
@@ -55,11 +55,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ','
-  - $
+  - .
   - '%'
   - ^
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $
+  - ;
   - {t: ▽, type: trans}
   - (
   - )
@@ -71,7 +71,7 @@ layers:
   - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '"'
   - {t: ▽, type: trans}
   - '{'
   - '}'
