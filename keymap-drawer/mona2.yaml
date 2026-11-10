@@ -34,7 +34,7 @@ layers:
   - LEFT ARROW
   - RIGHT ARROW
   - {t: /, h: '2'}
-  - ^
+  - {t: ^, h: LCTRL}
   - LEFT COMMAND
   - LALT
   - {t: LANG2, h: '4'}
