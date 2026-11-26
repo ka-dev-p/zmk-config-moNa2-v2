@@ -91,6 +91,11 @@
         input-processors = <&zip_mouse_gesture_desktop>;
     };
 
+    gesture_mac {
+        layers = <9>;
+        input-processors = <&zip_mouse_gesture_mac>;
+    };
+
 };
 
 &zip_temp_layer {

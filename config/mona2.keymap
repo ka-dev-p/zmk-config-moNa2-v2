@@ -78,6 +78,35 @@
         };
     };
 
+    zip_mouse_gesture_mac: zip_mouse_gesture_mac {
+        compatible = "zmk,input-processor-mouse-gesture";
+        #input-processor-cells = <0>;
+        stroke-size = <200>;
+        enable-eager-mode;
+        always-active;
+        suppress-movement;
+
+        space_previous {
+            pattern = <GESTURE_LEFT>;
+            bindings = <&kp LC(LEFT_ARROW)>;
+        };
+
+        space_next {
+            pattern = <GESTURE_RIGHT>;
+            bindings = <&kp LC(RIGHT_ARROW)>;
+        };
+
+        mission_control {
+            pattern = <GESTURE_UP>;
+            bindings = <&kp LC(UP_ARROW)>;
+        };
+
+        app_expose {
+            pattern = <GESTURE_DOWN>;
+            bindings = <&kp LC(DOWN_ARROW)>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -94,6 +123,11 @@
         alt_tab_layer {
             bindings = <&lt 8 LA(TAB)>;
             key-positions = <8 9>;
+        };
+
+        gesture_mac_layer {
+            bindings = <&mo 9>;
+            key-positions = <5 6>;
         };
     };
 
@@ -247,6 +281,17 @@
         };
 
         gesture_desktop {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        gesture_mac {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
